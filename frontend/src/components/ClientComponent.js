@@ -30,7 +30,7 @@ class ClientComponent extends React.Component {
                             <td> Client Id</td>
                             <td> Client First Name</td>
                             <td> Client Last Name</td>
-                            <td> Client EMail Id</td>
+                            <td> Client Email Id</td>
                         </tr>
 
                     </thead>
@@ -43,8 +43,8 @@ class ClientComponent extends React.Component {
 
                                         <td>{client.id}</td>
                                         <td>{client.firstName}</td>
-                                        <td>{client.lasName}</td>
-                                        <td>{client.emailId}</td>
+                                        <td>{client.lastName}</td>
+                                        <td>{client.email}</td>
                                     </tr>
                             )
                         }
